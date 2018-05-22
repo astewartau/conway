@@ -6,6 +6,11 @@ and run it with the usage described below.
 
 Read more: https://en.wikipedia.org/wiki/Conway_game
 
+# Dependencies
+Requires numpy and scipy. These can be installed via:
+
+    python -m pip install numpy scipy
+
 # Usage
     usage: python conway.py [-h] [-dims width height] [-timer [seconds]]
 
