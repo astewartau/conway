@@ -25,8 +25,8 @@ from scipy.signal import convolve2d
 def build_life_grid(width, height, random_life=True):
     '''Build a life grid according using the given dimensions'''
     return np.array(
-        np.random.random((width, height))*2 if random_life
-        else np.zeros((width, height)),
+        np.random.random((height, width))*2 if random_life
+        else np.zeros((height, width)),
         dtype = np.int
     )
 
